@@ -140,7 +140,7 @@ header nav a{
 /* projects */
 #projects{
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
-    color: #444B57;
+    color: #8d8f92;
 }
 #projects .list{
     display: grid;
@@ -156,8 +156,9 @@ header nav a{
 #projects .list .item{
     border-radius: 30px;
     overflow: hidden;
-    background-color: #f0f0f0;
+    background-color: rgb(12, 12, 12);
     position: relative;
+    padding-bottom: 50px;
 }
 #projects .list .item .index{
     background-color: #f0f0f0;
@@ -179,9 +180,18 @@ header nav a{
 }
 #projects .list .item .author{
     padding: 10px;
-    border-top: 1px solid #eee;
+    background: linear-gradient(135deg, rgb(82, 229, 231) 10%, rgb(19, 12, 183) 100%);
+    color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    transition: .5s;
+    position: absolute; /* Altera para absolute */
+    bottom: 0; /* Posiciona no fundo */
+    left: 0;
+    width: 100%; 
+}
+#projects .list .item .author:hover{
+    background: transparent;
 }
 #projects .list .item .job{
     font-weight: bold;
@@ -282,6 +292,7 @@ header nav a{
     text-align: center;
 }
 #contact .list{
+    padding-top: 20px;
     text-align: center;
 }
 #contact .list .item{
@@ -292,7 +303,7 @@ header nav a{
 #contact .list .item i {
     font-size: 2em;
     margin-right: 10px;
-    color:  #32a3e7;
+    color:  rgb(230, 230, 230);
 }
 
 
