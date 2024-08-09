@@ -303,7 +303,11 @@ header nav a{
 #contact .list .item i {
     font-size: 2em;
     margin-right: 10px;
-    color:  rgb(230, 230, 230);
+    color:  rgb(187, 187, 187);
+    transition: .2s;
+}
+#contact .list .item i:hover{
+    color:  rgb(241, 241, 241);
 }
 
 
@@ -342,7 +346,7 @@ header nav a{
     }
     #skills .list .item:nth-child(2),
     #skills .list .item:nth-child(3n){
-        background: #3F2525;
+        background: radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%);
     }
     #projects .list{
         padding: 10px;
