@@ -1,10 +1,7 @@
 # Portfolio
 
-<div align="center">
-     <img width="200" src = 'img/frames/iPhone-12-PRO-MAX-jpedrou.github.io.png'/>
-     <img width="200" src = 'img/frames/Galaxy-Fold2-jpedrou.github.io.png'/>
-      <img width="400" src = 'img/frames/Macbook-Air-jpedrou.github.io.png'/>
-</div>
+[Macbook-Air-jpedrou.github.io-RP5LYkAm7r.webm](https://github.com/user-attachments/assets/9c334562-1e98-4184-b900-ef0a1a04cde2)
+
 
 ## About
 
